@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+    background-image: url(https://static8.depositphotos.com/1022778/978/i/950/depositphotos_9788762-stock-photo-beige-marble-texture-background-high.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 0;
+    height: 55px;
+    margin-left: 0;
+}
+
+#logo {
+    color: white;
+    margin-bottom: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    margin-top: 5px;
+    position: fixed;
+}
+
+.nav-items {
+    float: right;
+    display: inline-flex;
+    position: fixed;
+    left: 1060px;
+    list-style-type: none;
+    bottom: 90%;
+
+}
+
+.nav-items a {
+    color: white;
+    flex-grow: 1;
+    text-decoration: none;
+    margin: ;
+    font-size: 1.3rem;
+    padding:;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 10px;
+
+    
+}
+
+.about-container {
+    display: flex;
+    margin: 70px;
+    
+}
+
+.nav-items a:hover {
+    background-image: url(https://static8.depositphotos.com/1022778/978/i/950/depositphotos_9788762-stock-photo-beige-marble-texture-background-high.jpg);
+    color: black;
+
+}
+
+
+.about-text {
+   width: 800px; 
+   border: 3px groove black;
+   border-radius: 5px;
+   border-color: gray;
+   margin-top: 10px;
+
+}
+
+.profile-pic {
+    margin-left: 20px;
+    
+}
+
+img {
+    border-radius: 12px;
+    margin-left: 100px;
+    height: 97%;
+    margin-top: 10px;
+}
+
+
+.about-text h2  {
+    padding-left: 7px;
+
+}
+
+.about-text p {
+    padding-left: 7px;
+}
+
